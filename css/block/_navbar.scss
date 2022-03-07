@@ -1,0 +1,25 @@
+.nav-bar__container{
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+}
+.nav-bar__imglogo-logo{
+    width: 100px;
+    margin-left: 4rem;
+}
+.nav-bar__items{
+    font-family: 'Raleway', sans-serif;
+    margin-right: 4rem;
+    & a{
+        text-decoration: none;
+        color: #0066e7;
+}
+& p{
+    margin-bottom: 0.1rem;
+}
+}

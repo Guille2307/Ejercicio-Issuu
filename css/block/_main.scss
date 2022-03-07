@@ -1,0 +1,74 @@
+.loging__container{
+    margin-left:8rem;
+    @include mobile{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        text-align: center;
+    }
+    & .loging__title{
+        margin: 9rem 0 2rem 0;
+        @include mobile {
+            margin: 9rem 2rem 2rem
+        }
+    }
+    
+}
+.login__container--section{
+    display: flex;
+    @include mobile {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    
+    
+}
+.login__img-google{
+    display: flex;
+    align-items: center;
+    background-color: #4286f5;
+    padding: 0rem 0.15rem 0rem 0.15rem;
+    height: 2.1rem;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    @include mobile {
+        
+    }
+    cursor: pointer;
+    & p{
+        color: white;
+        padding: 0.2rem;
+    }
+    
+}
+.login__img-google--logog{
+    width: 1.8rem;
+}
+
+.Login__img-facebook{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    background-color: #4268b2;
+    padding: 0rem 0.15rem 0rem 0.15rem;
+    height: 2.1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+
+    & p{
+        color: white;
+        padding: 0.2rem;
+        font-size: 0.8rem;
+    }
+}
+.Login__img-facebook--logof{
+    width: 1.8rem;
+}
+
+.paragraph{
+    margin: 2rem 0rem 2rem 8rem;
+   @include mobile {
+       margin: 2rem 2rem 0;
+   }
+}

@@ -1,0 +1,21 @@
+@import "./utilities/reponsive";
+@import "./block/navbar";
+@import "./block/footer";
+@import "./block/main";
+@import "./block/form";
+
+
+*,::after ::before{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+

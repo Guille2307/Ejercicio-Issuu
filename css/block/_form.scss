@@ -1,0 +1,88 @@
+.form__container{
+    margin-left: 8rem;
+    height: 53vh;
+    @include mobile {
+        display: flex;
+        flex-direction:column;
+        margin: 2rem 2rem 2rem;
+        width: 70%;
+        
+    }
+   }
+
+.form__email {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    @include tablet{
+        width: 75%;
+    }
+    @include mobile {
+        width: 100%;
+    }
+    & label{
+        margin-bottom: 0.8rem;
+        font-weight: bold;
+    }
+    & input {
+        margin-bottom: 1.2rem;
+        padding: 0.4rem;
+        
+    }
+}
+.form__password {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    @include tablet{
+        width: 75%;
+    }
+    @include mobile {
+        width: 100%;
+    }
+    & label{
+        margin-bottom: 0.8rem;
+        font-weight: bold;
+    }
+    & input {
+        margin-bottom: 1.2rem;
+        padding: 0.4rem;
+
+    }
+}
+
+.form__checkbox{
+     & label {
+        font-size: 0.8rem;
+    }
+     & input{
+         margin-right: 0.5rem;
+         padding: 1rem;
+        }
+     & a{
+         text-decoration: none;
+         color: #0066e7;
+         font-size: 0.8rem;
+     }
+}
+.form__submit{
+    width: 25%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-style: dashed;
+    border-color: rgb(226, 222, 222);
+    border-radius:30px ;
+    background-color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(190, 189, 189);
+    font-size: medium;
+    @include mobile {
+        width: 55%;
+    }
+    @include tablet {
+        width: 58%;
+    }
+}
